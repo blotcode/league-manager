@@ -1,0 +1,41 @@
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">&nbsp;</div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="login-card mdl-card mdl-shadow--2dp wrapper">
+      <div class="mdl-card__title text-center">
+        <h2 class="mdl-card__title-text">Sign Up</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+            <input class="mdl-textfield__input" type="text" id="sample3" />
+            <label class="mdl-textfield__label" for="sample3">Email</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+            <input class="mdl-textfield__input" type="password" id="sample3" />
+            <label class="mdl-textfield__label" for="sample3">Cellphone</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+            <input class="mdl-textfield__input" type="password" id="sample3" />
+            <label class="mdl-textfield__label" for="sample3">Password</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+            <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+            <span class="mdl-switch__label">General condition</span>
+          </label>
+          </div>
+        </form>
+      </div>
+      <div class="mdl-card__actions mdl-card--border text-center">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+          Register me
+        </a>
+        <a [routerLink]="['/login']" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          go to Login
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">&nbsp;</div>
+</div>

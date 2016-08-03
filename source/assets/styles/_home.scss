@@ -1,0 +1,37 @@
+$break-small: 320px;
+$break-large: 1200px;
+
+.container-section{
+    position: relative;
+    height: 600px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/slide01.jpg') center 30% no-repeat;
+    background-size: cover;
+    .slogan {
+        font-size: 60px;
+        padding-top: 180px;
+        line-height: 63px;
+    }
+    .sub-slogan {
+        font-size: 21px;
+        padding-top: 24px;
+        line-height: 24px;
+    }
+    .lm-fab {
+        position: absolute;
+        right: 20%;
+        bottom: -26px;
+        z-index: 3;
+        background: #fff !important;
+        color: black !important;
+    }
+  }
+
+.login-card {
+    width: 412px;
+    margin: 0 auto;
+    @media screen and (max-width: $break-small) {
+        width: 270px;
+      }
+  }

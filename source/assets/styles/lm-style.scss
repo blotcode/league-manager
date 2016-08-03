@@ -1,0 +1,28 @@
+@import 'node_modules/material-design-lite/src/material-design-lite';
+@import 'source/assets/styles/_home.scss';
+
+.lm-drawer-header{
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 16px;
+  height: 151px;
+  .mdl-layout-spacer{
+    float:right;
+  }
+  .lm-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+  }
+}
+
+
+
